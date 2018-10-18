@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{6fd6ea90-92f1-4846-bd90-68adcf08974d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Bc-navigationbar">
+      <UniqueIdentifier>{dd3253e1-882c-427b-a41f-a9324b00af46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bc-mainui">
+      <UniqueIdentifier>{42359f39-59d7-4c93-baa4-f98d8b5e983f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bc-progressbar">
+      <UniqueIdentifier>{ee0bd1d0-32fb-4864-8d87-461db7fdb9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bc-mainui\panel">
+      <UniqueIdentifier>{2bb6fa51-ec52-4fd0-896b-0723208897eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bc-flatui">
+      <UniqueIdentifier>{da1c6c7c-9284-4842-985c-9c475f295ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bc-others">
+      <UniqueIdentifier>{3a3fa056-6d1a-457b-8403-992aa2824d7d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\qrc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-navigationbar\Bc_navlistview.cpp">
+      <Filter>Bc-navigationbar</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_navlistview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-mainui\main.cpp">
+      <Filter>Bc-mainui</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-mainui\mainwindow.cpp">
+      <Filter>Bc-mainui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_colorprogressbarpanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-mainui\panel\Bc_colorprogressbarpanel.cpp">
+      <Filter>Bc-mainui\panel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_colorprogressbar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-progressbar\Bc_colorprogressbar.cpp">
+      <Filter>Bc-progressbar</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_flatpanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-mainui\panel\Bc_flatpanel.cpp">
+      <Filter>Bc-mainui\panel</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-flatui\Bc_flatui.cpp">
+      <Filter>Bc-flatui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_flatui.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-others\Bc_codearea.cpp">
+      <Filter>Bc-others</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_codearea.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_codeareapanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-mainui\panel\Bc_codeareapanel.cpp">
+      <Filter>Bc-mainui\panel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_dynamicprogressbar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-progressbar\Bc_dynamicprogressbar.cpp">
+      <Filter>Bc-progressbar</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-progressbar\Bc_roundprogressbar.cpp">
+      <Filter>Bc-progressbar</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_roundprogressbar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_roundprogressbarpanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-mainui\panel\Bc_roundprogressbarpanel.cpp">
+      <Filter>Bc-mainui\panel</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-progressbar\Bc_borderbar.cpp">
+      <Filter>Bc-progressbar</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_borderbar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_borderbarpanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-mainui\panel\Bc_borderbarpanel.cpp">
+      <Filter>Bc-mainui\panel</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-navigationbar\Bc_slidenavigation.cpp">
+      <Filter>Bc-navigationbar</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_slidenavigation.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_slidernavigationpanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-mainui\panel\Bc_slidernavigationpanel.cpp">
+      <Filter>Bc-mainui\panel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="mainwindow.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-navigationbar\Bc_navlistview.h">
+      <Filter>Bc-navigationbar</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-mainui\mainwindow.h">
+      <Filter>Bc-mainui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-mainui\panel\Bc_colorprogressbarpanel.h">
+      <Filter>Bc-mainui\panel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-progressbar\Bc_colorprogressbar.h">
+      <Filter>Bc-progressbar</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-mainui\panel\Bc_flatpanel.h">
+      <Filter>Bc-mainui\panel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-flatui\Bc_flatui.h">
+      <Filter>Bc-flatui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-others\Bc_codearea.h">
+      <Filter>Bc-others</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-mainui\panel\Bc_codeareapanel.h">
+      <Filter>Bc-mainui\panel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-progressbar\Bc_dynamicprogressbar.h">
+      <Filter>Bc-progressbar</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-progressbar\Bc_roundprogressbar.h">
+      <Filter>Bc-progressbar</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-mainui\panel\Bc_roundprogressbarpanel.h">
+      <Filter>Bc-mainui\panel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-progressbar\Bc_borderbar.h">
+      <Filter>Bc-progressbar</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-mainui\panel\Bc_borderbarpanel.h">
+      <Filter>Bc-mainui\panel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-navigationbar\Bc_slidenavigation.h">
+      <Filter>Bc-navigationbar</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-mainui\panel\Bc_slidernavigationpanel.h">
+      <Filter>Bc-mainui\panel</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

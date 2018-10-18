@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<layout>
+                <Node label="美化控件大全" icon=":/Bc-mainui/res/navigationbar/home.png"></Node>
+				<Node label="进度条控件" info="4" collapse="1">
+                        <Node label="多彩进度条"></Node>
+                        <Node label="多态进度条"></Node>
+						<Node label="圆环进度条"></Node>
+						<Node label="饰边进度条"></Node>
+		</Node>
+		        <Node label="导航控件" info="1" collapse="1">
+                        <Node label="滑动导航栏"></Node>
+		</Node>
+                <Node label="扁平化控件">
+		</Node>
+		        <Node label="其他控件" info="1" collapse="1">
+                        <Node label="验证码控件" icon=":/Bc-mainui/res/navigationbar/code.png"></Node>
+		</Node>
+                <Node label="关于">
+		</Node>
+	</layout>
+</root>
