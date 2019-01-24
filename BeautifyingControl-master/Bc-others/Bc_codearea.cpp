@@ -56,6 +56,7 @@ void CodeArea::paintEvent(QPaintEvent *event)
         painter.translate(10, 0);
     }
     painter.restore();
+
     drawOutline(painter);
     drawNoisyPoint(painter);
 }
@@ -125,6 +126,7 @@ void CodeArea::drawNoisyPoint(QPainter &painter)
     painter.setPen(Qt::red);
     painter.setPen(Qt::DotLine);
     painter.setBrush(Qt::NoBrush);
+
 	for (int i = 0; i < m_nNoisyPointCount; i++) {
 		painter.drawPoint(QPointF(qrand() % width(), qrand() % height()));
 	}

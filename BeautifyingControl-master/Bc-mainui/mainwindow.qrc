@@ -1,4 +1,12 @@
 <RCC>
-    <qresource prefix="MainWindow">
+    <qresource prefix="/MainWindow">
+        <file>res/config.xml</file>
+        <file>res/navigationbar/code.png</file>
+        <file>res/navigationbar/home.png</file>
+        <file>res/imageview/1.png</file>
+        <file>res/imageview/2.png</file>
+        <file>res/imageview/3.png</file>
+        <file>res/imageview/4.png</file>
+        <file>res/imageview/5.png</file>
     </qresource>
 </RCC>

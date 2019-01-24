@@ -1,4 +1,13 @@
 #include "mainwindow.h"
+
+#include "./panel/Bc_colorprogressbarpanel.h"
+#include "./panel/Bc_roundprogressbarpanel.h"
+#include "./panel/Bc_borderbarpanel.h"
+#include "./panel/Bc_slidernavigationpanel.h"
+#include "./panel/Bc_flatpanel.h"
+#include "./panel/Bc_codeareapanel.h"
+#include "./panel/Tu_imageviewpanel.h"
+
 #include <QDebug>
 
 MainWindow::MainWindow(QWidget *parent)
@@ -21,7 +30,7 @@ void MainWindow::initUi()
 {
 	navListView = new NavListView;
 	navListView->setFixedWidth(180);
-	navListView->readData(":/Bc-mainui/res/config.xml");
+	navListView->readData(":/MainWindow/res/config.xml");
 
 	stackedWidget = new QStackedWidget;
 }
@@ -67,6 +76,9 @@ void MainWindow::initMap()
 
 	objMap.insert(QStringLiteral("ÑéÖ¤Âë¿Ø¼þ"), index++);
 	stackedWidget->addWidget(new CodeAreaPanel);
+
+    objMap.insert(QStringLiteral("Í¼Æ¬ÂÖ²¥"), index++);
+    stackedWidget->addWidget(new ImageViewPanel);
 }
 
 void MainWindow::onClicked(const QModelIndex &index)
@@ -77,5 +89,3 @@ void MainWindow::onClicked(const QModelIndex &index)
 		stackedWidget->setCurrentIndex(index_);
 	}
 }
-
-

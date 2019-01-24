@@ -8,13 +8,6 @@
 #include "../Bc-navigationbar/Bc_navlistview.h"
 #include "../Bc-progressbar/Bc_dynamicprogressbar.h"
 
-#include "./panel/Bc_colorprogressbarpanel.h"
-#include "./panel/Bc_roundprogressbarpanel.h"
-#include "./panel/Bc_borderbarpanel.h"
-#include "./panel/Bc_slidernavigationpanel.h"
-#include "./panel/Bc_flatpanel.h"
-#include "./panel/Bc_codeareapanel.h"
-
 class MainWindow : public QWidget
 {
 	Q_OBJECT

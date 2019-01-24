@@ -42,11 +42,11 @@
     <Filter Include="Bc-others">
       <UniqueIdentifier>{3a3fa056-6d1a-457b-8403-992aa2824d7d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Bc-buttons">
+      <UniqueIdentifier>{419ed41f-aae6-4c14-a393-081d36939ca3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GeneratedFiles\qrc_mainwindow.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
     <ClCompile Include="Bc-navigationbar\Bc_navlistview.cpp">
       <Filter>Bc-navigationbar</Filter>
     </ClCompile>
@@ -140,11 +140,23 @@
     <ClCompile Include="Bc-mainui\panel\Bc_slidernavigationpanel.cpp">
       <Filter>Bc-mainui\panel</Filter>
     </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Bc_imageview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-others\Bc_imageview.cpp">
+      <Filter>Bc-others</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Tu_imageviewpanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Bc-mainui\panel\Tu_imageviewpanel.cpp">
+      <Filter>Bc-mainui\panel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="mainwindow.qrc">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="Bc-navigationbar\Bc_navlistview.h">
       <Filter>Bc-navigationbar</Filter>
     </CustomBuild>
@@ -188,6 +200,15 @@
       <Filter>Bc-navigationbar</Filter>
     </CustomBuild>
     <CustomBuild Include="Bc-mainui\panel\Bc_slidernavigationpanel.h">
+      <Filter>Bc-mainui\panel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-mainui\mainwindow.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-others\Bc_imageview.h">
+      <Filter>Bc-others</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bc-mainui\panel\Tu_imageviewpanel.h">
       <Filter>Bc-mainui\panel</Filter>
     </CustomBuild>
   </ItemGroup>
